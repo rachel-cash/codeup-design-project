@@ -174,9 +174,40 @@
         #tweet{
             color: black;
             margin-left: 1em;
+            font-family: 'Abel', sans-serif;
         }
         #twitter{
             color: #1DA1F3;
+        }
+        #last-tweet {
+            max-width: 100%;
+            display: inline;
+            font-weight: lighter;
+            font-size: 8px;
+        }
+        #first-section {
+            display: inline-block;
+            font-family: 'Anton', sans-serif;
+            font-size: large;
+            margin-right: 50em;
+            margin-top: 3em;
+            padding: 0;
+        }
+        #second-section {
+            display: inline-block;
+            font-family: 'Anton', sans-serif;
+            font-size: large;
+            margin-right: 50em;
+            margin-top: 3em;
+            padding: 0;
+        }
+        #third-section {
+            display: inline-block;
+            font-family: 'Anton', sans-serif;
+            font-size: large;
+            margin-right: 50em;
+            margin-top: 3em;
+            padding: 0;
         }
     </style>
 </head>
@@ -288,7 +319,7 @@
 
 
 
-        <div class="col-2 offset-lg-3"><!---DIV RIGHT COLUMN START------>
+        <div class="col-2 offset-lg-3 p-0"><!---DIV RIGHT COLUMN START------>
             <div class="card col-12 embed-responsive embed-responsive-4by3" id="mobile-phone">
                 <img src="img/mobile-phone.jpg" class="card-img-top embed-responsive-item" alt="...">
             </div>
@@ -301,7 +332,20 @@
 
 
             <i class="fab fa-twitter" id="twitter"><p class="d-inline" id="tweet">LAST TWEET</p></i>
+            <div id="last-tweet"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, facilis fugiat impedit ipsa iusto mollitia nostrum reiciendis vitae voluptatem voluptatum?</p></div>
         </div><!----DIV RIGHT COLUMN END------>
+
+        <div class="col-2 p-0">
+            <div>
+                <h3 class="col-12" id="first-section">THE ADMIN BAR AND ABSOLUTE POSITIONING</h3>
+            </div>
+            <div>
+                <h3 class="col-12" id="second-section">NIBBLER AWESOME WEBSITE TESTING</h3>
+            </div>
+            <div>
+                <h3 class="col-12" id="third-section">HOW TO GET GOOGLE TO LIKE YOU</h3>
+            </div>
+        </div>
 
     </div><!----FINAL ROW DIV END----->
 
