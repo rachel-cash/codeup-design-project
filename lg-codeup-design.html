@@ -13,6 +13,7 @@
     <style>
         .container {
             background-color: #f0f0f0;
+            max-width: 100%;
         }
         .nav-item {
             font-family: 'Abel', sans-serif;
@@ -152,6 +153,21 @@
             border: 3px solid #e6e6e6;
 
         }
+        #mobile-phone {
+            margin-top: 2em;
+            height: 50px;
+            width: 50px;
+        }
+        #head {
+            margin-top: 2em;
+            height: 50px;
+            width: 50px;
+        }
+        #ipad {
+            margin-top: 2em;
+            height: 50px;
+            width: 50px;
+        }
 
     </style>
 </head>
@@ -215,11 +231,11 @@
 
     <div class="row"><!----START ROW DIV FOR DESIGN CIRCLES--->
 
-        <div class="col-6 offset-lg-3 text-center mt-3"><!-----START COLUMN DIV---->
-            <button type="button" class="btn" id="cir-1">DESIGN</button>
-            <button type="button" class="btn" id="cir-2">DEVELOP</button>
-            <button type="button" class="btn" id="cir-3">SUPPORT</button>
-            <button type="button" class="btn" id="cir-4">HOST</button>
+        <div class="col-6 offset-lg-3 text-center mt-3 mb-3"><!-----START COLUMN DIV---->
+            <button type="button" class="btn mx-3" id="cir-1">DESIGN</button>
+            <button type="button" class="btn mx-3" id="cir-2">DEVELOP</button>
+            <button type="button" class="btn mx-3" id="cir-3">SUPPORT</button>
+            <button type="button" class="btn mx-3" id="cir-4">HOST</button>
         </div><!---END COLUMN DIV----->
 
     </div><!----END ROW DIV FOR DESIGN CIRCLES--->
@@ -240,62 +256,55 @@
 
     <div class="row"><!---ROW DIV START FOR IMAGES--->
 
-        <div class="col-2"><!----DIV COLUMN START---->
+        <div class="col-2"><!----DIV LEFT COLUMN START---->
             <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="green-apples">
                 <img src="img/apple-ipad.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
             </div>
-                <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="man">
+
+            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="man">
                     <img src="img/man.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
-                </div>
-                </div>
-
-
-
-                <div class="col-2">
-                    <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="mac-book">
-                        <img src="img/macbook.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
-                    </div>
-                    <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="security">
-                        <img src="img/security.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
-                    </div>
-                </div>
             </div>
-        </div>
+        </div><!-----DIV LEFT COLUMN END----->
+
+
+
+        <div class="col-2"><!---DIV MIDDLE COLUMN START------>
+            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="mac-book">
+                        <img src="img/macbook.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+            </div>
+            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="security">
+                        <img src="img/security.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+            </div>
+        </div><!----DIV MIDDLE COLUMN END------>
+
+
+
+        <div class="col-2 offset-lg-3"><!---DIV RIGHT COLUMN START------>
+            <div class="card col-12 embed-responsive embed-responsive-4by3" id="mobile-phone">
+                <img src="img/mobile-phone.jpg" class="card-img-top embed-responsive-item" alt="...">
+            </div>
+            <div class="card col-12 embed-responsive embed-responsive-4by3" id="head">
+                <img src="img/head.jpg" class="card-img-top embed-responsive-item" alt="...">
+            </div>
+            <div class="card col-12 embed-responsive embed-responsive-4by3" id="ipad">
+                <img src="img/ipad.jpg" class="card-img-top embed-responsive-item" alt="...">
+            </div>
+        </div><!----DIV RIGHT COLUMN END------>
+
+    </div><!----FINAL ROW DIV END----->
 
 
 
 
 
 
-                <!----DIV COLUMN END---->
-
-        <div class="col-2"><!---DIV COLUMN START---->
-<!--            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="macbook">-->
-<!--                <img src="img/macbook.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">-->
-<!--            </div>-->
-
-<!--            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="security">-->
-<!--                <img src="img/security.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">-->
-<!--            </div>-->
-        </div><!---DIV COLUMN END--->
-
-        <div class="col-2"><!---DIV COLUMN START---->
-            <!---use cards for img--->
-        </div><!---DIV COLUMN END--->
-
-    </div><!----ROW DIV END FOR IMAGES SECTION--->
 
 
 
 
 
 
-
-
-
-
-
-
+</div><!-----DIV END FOR MAIN CONTAINER----->
 
 
 
@@ -312,7 +321,6 @@
     <!--            </div>-->
     <!--        </div>     &lt;!&ndash;-&#45;&#45;HOW TO MAKE SMALL CIRCLES-&#45;&#45;&ndash;&gt;-->
 
-</div><!----DIV END FOR MAIN CONTAINER---->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
