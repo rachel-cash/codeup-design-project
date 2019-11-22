@@ -8,213 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/codeup-design.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <title>Practice 2</title>
 
-    <style>
-        .container {
-            background-color: #f0f0f0;
-            max-width: 100%;
-        }
-        .nav-item {
-            font-family: 'Abel', sans-serif;
-        }
-        .nav-container {
-            background-color: white;
-            margin-top: 3em;
-        }
-        .nav-link {
-            color: black;
-        }
-        .fp-green-apples {
-            font-size: 10px;
-        }
-
-        #logo-item {
-            margin-left: 8em;
-        }
-        #logo-title {
-            font-family: 'Abel', sans-serif;
-        }
-        #last-nav-item {
-            margin-right: 8em;
-        }
-        #lg-header {
-            font-family: 'Anton', sans-serif;
-            /*font-size: 32px;*/
-        }
-        #sm-header {
-            font-family: 'Anton', sans-serif;
-        }
-        #cir-1 {
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-            display: inline-block;
-            border: 5px solid white;
-            font-family: 'Anton', sans-serif;
-            font-size: medium;
-            background-color: #E6563B;
-            color: white;
-        }
-        #cir-2 {
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-            display: inline-block;
-            border: 5px solid white;
-            font-family: 'Anton', sans-serif;
-            font-size: medium;
-            background-color: #DF9F3D;
-            color: white;
-        }
-        #cir-3 {
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-            display: inline-block;
-            border: 5px solid white;
-            font-family: 'Anton', sans-serif;
-            font-size: medium;
-            background-color: #7cb06c;
-            color: white;
-        }
-        #cir-4 {
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-            display: inline-block;
-            border: 5px solid white;
-            font-family: 'Anton', sans-serif;
-            font-size: medium;
-            background-color: #00aba9;
-            color: white;
-        }
-        #dot-1 {
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: #E6563B;
-            font-size: 10px;
-        }
-        #dot-2 {
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: #DF9F3D;
-            font-size: 10px;
-        }
-        #dot-3 {
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: #7cb06c;
-            font-size: 10px;
-        }
-        #dot-4 {
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: #00aba9;
-            font-size: 10px;
-        }
-        /*need to adjust length of line*/ #hr-custom {
-                                              border-top: 3px solid #e6e6e6;
-                                          }
-        #green-apples {
-            margin-top: 2em;
-            margin-left: 6em;
-            border: 3px solid #e6e6e6;
-        }
-        #selected-work {
-            margin-left: 6em;
-
-        }
-        #the-last {
-            margin-right: 5em;
-
-        }
-        #man {
-            margin-top: 2em;
-            margin-left: 6em;
-            border: 3px solid #e6e6e6;
-        }
-        #mac-book{
-            margin-top: 2em;
-            margin-left: 8em;
-            border: 3px solid #e6e6e6;
-
-        }
-        #security{
-            margin-top: 2em;
-            margin-left: 8em;
-            border: 3px solid #e6e6e6;
-
-        }
-        #mobile-phone {
-            margin-top: 2em;
-            height: 80px;
-            width: 80px;
-        }
-        #head {
-            margin-top: 2em;
-            height: 80px;
-            width: 80px;
-        }
-        #ipad {
-            margin-top: 2em;
-            height: 80px;
-            width: 80px;
-            margin-bottom: 2em;
-        }
-        #tweet{
-            color: black;
-            margin-left: 1em;
-            font-family: 'Abel', sans-serif;
-        }
-        #twitter{
-            color: #1DA1F3;
-        }
-        #last-tweet {
-            max-width: 100%;
-            display: inline;
-            font-weight: lighter;
-            font-size: 8px;
-        }
-        #first-section {
-            display: inline-block;
-            font-family: 'Anton', sans-serif;
-            font-size: large;
-            margin-right: 50em;
-            margin-top: 3em;
-            padding: 0;
-        }
-        #second-section {
-            display: inline-block;
-            font-family: 'Anton', sans-serif;
-            font-size: large;
-            margin-right: 50em;
-            margin-top: 3em;
-            padding: 0;
-        }
-        #third-section {
-            display: inline-block;
-            font-family: 'Anton', sans-serif;
-            font-size: large;
-            margin-right: 50em;
-            margin-top: 3em;
-            padding: 0;
-        }
-    </style>
 </head>
 
 <body>
 
-<div class="container"> <!---DIV START FOR MAIN CONTAINER--->
+<div class="container m-0"> <!---DIV START FOR MAIN CONTAINER--->
 
     <div class="row"><!---MADE FIRST ROW ABOVE NAV BAR---->
         <div class="col-12"></div>
@@ -228,7 +30,7 @@
                 <ul class="nav justify-content-start align-items-center bg-white"><!---NAV BAR START---->
 
                     <li class="nav-item" id="logo-item"><!----LOGO ITEM IN NAV BAR--->
-                        <img src="img/logo.jpg" width=105px height=105px alt="design-logo">
+                        <img src="img/logo-copy.jpg" width=105px height=105px alt="design-logo">
                     </li>
                     <li class="nav-item mr-auto">
                         <h3 id="logo-title">codeup design</h3>
@@ -256,7 +58,7 @@
 
     <div class="row" id="lg-header"><!---ROW DIV START FOR HEADER----->
 
-        <div class="col-6 offset-lg-3 text-center mt-3"><!----COLUMN DIV START------>
+        <div class="col-6 offset-lg-3 text-center mt-5"><!----COLUMN DIV START------>
             <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2><!---need to adjust height of heading--->
         </div><!----COLUMN DIV END----->
 
@@ -271,112 +73,101 @@
 
     <div class="row"><!----START ROW DIV FOR DESIGN CIRCLES--->
 
-        <div class="col-6 offset-lg-3 text-center mt-3 mb-3"><!-----START COLUMN DIV---->
-            <button type="button" class="btn mx-3" id="cir-1">DESIGN</button>
-            <button type="button" class="btn mx-3" id="cir-2">DEVELOP</button>
-            <button type="button" class="btn mx-3" id="cir-3">SUPPORT</button>
-            <button type="button" class="btn mx-3" id="cir-4">HOST</button>
+        <div class="col-6 offset-lg-3 text-center mt-3"><!-----START COLUMN DIV---->
+            <button type="button" class="btn mx-2" id="cir-1">DESIGN</button>
+            <button type="button" class="btn mx-2" id="cir-2">DEVELOP</button>
+            <button type="button" class="btn mx-2" id="cir-3">SUPPORT</button>
+            <button type="button" class="btn mx-2" id="cir-4">HOST</button>
         </div><!---END COLUMN DIV----->
 
     </div><!----END ROW DIV FOR DESIGN CIRCLES--->
 
     <hr id="hr-custom"><!---need to adjust length of line--->
 
-    <div class="row"><!----ROW DIV START FOR SUBSECTIONS--->
-
-        <div class="col-4 offset-lg-2 mt-5" id="selected-work"><!---SELECTED WORK COLUMN DIV START--->
-            SELECTED WORK
-        </div><!----SELECTED WORK DIV END---->
-
-        <div class="col-2 offset-lg-2 mt-5" id="the-last"><!----THE LAST COLUMN DIV START--->
-            THE LAST
-        </div><!---THE LAST COLUMN DIV END---->
-
-    </div><!---ROW DIV END FOR SUBSECTIONS--->
-
     <div class="row"><!---ROW DIV START FOR IMAGES--->
 
-        <div class="col-2"><!----DIV LEFT COLUMN START---->
-            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="green-apples">
-                <img src="img/apple-ipad.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+        <div class="col-2 offset-lg-3 my-5"><!----DIV COLUMN START---->
+            <h6 id="select">SELECTED WORK</h6>
+            <div id="img-apples">
+                <img src="img/apples-ipad.jpg" width=210px height=116px alt="design-logo">
             </div>
-
-            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="man">
-                    <img src="img/man.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+            FEATURED PROJECT
+            <div class="mt-3" id="img-man">
+                <img src="img/man.jpg" width=210px height=116px alt="design-logo">
             </div>
-        </div><!-----DIV LEFT COLUMN END----->
+            FEATURE PROJECT
+        </div><!----DIV COLUMN END---->
 
-
-
-        <div class="col-2"><!---DIV MIDDLE COLUMN START------>
-            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="mac-book">
-                        <img src="img/macbook.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+        <div class="col-2 my-5"><!---DIV COLUMN START---->
+            <div id="img-mac">
+                <img src="img/macbook.jpg" width=210px height=116px alt="design-logo">
             </div>
-            <div class="card col-12 embed-responsive embed-responsive-4by3" style="width: 18em;" id="security">
-                        <img src="img/security.jpg"  width="200px" height=200px class="card-img-top embed-responsive-item" alt="...">
+            FEATURED PROJECT
+            <div class="mt-3" id="img-security">
+                <img src="img/security.jpg" width=210px height=116px alt="design-logo">
             </div>
-        </div><!----DIV MIDDLE COLUMN END------>
+            FEATURED PROJECT
+        </div><!---DIV COLUMN END--->
 
-
-
-        <div class="col-2 offset-lg-3 p-0"><!---DIV RIGHT COLUMN START------>
-            <div class="card col-12 embed-responsive embed-responsive-4by3" id="mobile-phone">
-                <img src="img/mobile-phone.jpg" class="card-img-top embed-responsive-item" alt="...">
-            </div>
-            <div class="card col-12 embed-responsive embed-responsive-4by3" id="head">
-                <img src="img/head.jpg" class="card-img-top embed-responsive-item" alt="...">
-            </div>
-            <div class="card col-12 embed-responsive embed-responsive-4by3" id="ipad">
-                <img src="img/ipad.jpg" class="card-img-top embed-responsive-item" alt="...">
-            </div>
-
-
-            <i class="fab fa-twitter" id="twitter"><p class="d-inline" id="tweet">LAST TWEET</p></i>
-            <div id="last-tweet"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, facilis fugiat impedit ipsa iusto mollitia nostrum reiciendis vitae voluptatem voluptatum?</p></div>
-        </div><!----DIV RIGHT COLUMN END------>
-
-        <div class="col-2 p-0">
+        <div class="col-2 my-5 p-0"><!---DIV THUMBNAIL COLUMN START---->
+            <h6 id="the-last">THE LAST</h6>
             <div>
-                <h3 class="col-12" id="first-section">THE ADMIN BAR AND ABSOLUTE POSITIONING</h3>
+                <img src="img/mobile-phone.jpg" alt="mobile-phone-thumbnail" class="img-thumbnail">
+                <h6 id="headline1">THE ADMIN BAR <br>AND ABSOLUTE POSITIONING</h6>
             </div>
             <div>
-                <h3 class="col-12" id="second-section">NIBBLER AWESOME WEBSITE TESTING</h3>
+                <img src="img/head.jpg" alt="head-thumbnail" class="img-thumbnail mt-2">
+                <h6 id="headline2">NIBBLER AWESOME <br>WEBSITE TESTING</h6>
             </div>
             <div>
-                <h3 class="col-12" id="third-section">HOW TO GET GOOGLE TO LIKE YOU</h3>
+                <img src="img/ipad.jpg" alt="ipad-thumbnail" class="img-thumbnail mt-2">
+                <h6 id="headline3">HOW TO GET GOOGLE TO <br>LIKE YOU</h6>
             </div>
+            <div class="mt-3">
+
+                <i class="fab fa-twitter" id="twitter"><p class="d-inline" id="tweet">LAST TWEET</p></i>
+                <div id="last-tweet"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, facilis fugiat impedit ipsa iusto mollitia nostrum reiciendis vitae voluptatem voluptatum?</p></div>
+            </div>
+
         </div>
+    </div><!---DIV THUMBNAIL COLUMN END--->
 
-    </div><!----FINAL ROW DIV END----->
-
-
-
-
-
-
-
-
-
-
-
-
-</div><!-----DIV END FOR MAIN CONTAINER----->
-
-
-
-
-
-
-
-    <!--&lt;!&ndash;-&#45;&#45;&#45;&#45;FOR MAKING SMALL CIRCLES&#45;&#45;&ndash;&gt;    <div class="row">-->
-    <!--            <div class="col-6">-->
-    <!--                <button type="button" class="btn" id="dot-1">D</button>-->
-    <!--                <button type="button" class="btn" id="dot-2">D</button>-->
-    <!--                <button type="button" class="btn" id="dot-3">S</button>-->
-    <!--                <button type="button" class="btn" id="dot-4">H</button>-->
+    <!--            <div class="col-2" id="headlines">-->
+    <!--                <h6>THE ADMIN BAR <br>AND ABSOLUTE POSITIONING</h6>-->
+    <!--                <h6>NIBBLER AWESOME <br>WEBSITE TESTING</h6>-->
+    <!--                <h6>HOW TO GET GOOGLE TO <br>LIKE YOU</h6>-->
     <!--            </div>-->
-    <!--        </div>     &lt;!&ndash;-&#45;&#45;HOW TO MAKE SMALL CIRCLES-&#45;&#45;&ndash;&gt;-->
 
+</div><!----ROW DIV END FOR IMAGES SECTION--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--&lt;!&ndash;-&#45;&#45;&#45;&#45;FOR MAKING SMALL CIRCLES&#45;&#45;&ndash;&gt;    <div class="row">-->
+<!--            <div class="col-6">-->
+<!--                <button type="button" class="btn" id="dot-1">D</button>-->
+<!--                <button type="button" class="btn" id="dot-2">D</button>-->
+<!--                <button type="button" class="btn" id="dot-3">S</button>-->
+<!--                <button type="button" class="btn" id="dot-4">H</button>-->
+<!--            </div>-->
+<!--        </div>     &lt;!&ndash;-&#45;&#45;HOW TO MAKE SMALL CIRCLES-&#45;&#45;&ndash;&gt;-->
+
+</div><!----DIV END FOR MAIN CONTAINER---->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -384,4 +175,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html
+</html>
